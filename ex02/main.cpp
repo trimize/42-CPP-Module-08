@@ -6,7 +6,7 @@
 /*   By: trimize <trimize@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/24 12:42:45 by trimize           #+#    #+#             */
-/*   Updated: 2024/09/24 12:54:06 by trimize          ###   ########.fr       */
+/*   Updated: 2024/10/21 15:28:25 by trimize          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,6 @@ int main()
 	mstack.push(3);
 	mstack.push(5);
 	mstack.push(737);
-	//[...]
 	mstack.push(0);
 	
 	MutantStack<int>::iterator it = mstack.begin();
@@ -57,7 +56,6 @@ int main()
 	l.push_back(3);
 	l.push_back(5);
 	l.push_back(737);
-	//[...]
 	l.push_back(0);
 	
 	std::list<int>::iterator itd = l.begin();
